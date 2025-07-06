@@ -1,0 +1,14 @@
+def get_tip(emotion):
+    tips = {
+        "😭 Grief": "It’s okay to grieve. Allow yourself space to feel. You're not alone.",
+        "😢 Sadness": "Take a deep breath. Maybe journal more or talk to someone you trust.",
+        "😟 Anxiety": "Try the 5-4-3-2-1 grounding exercise or go for a walk.",
+        "😕 Discomfort": "Check in with yourself. Are you tired, hungry, or overwhelmed?",
+        "😐 Neutral": "A steady mind is a gift. Maybe explore how you’re feeling more deeply.",
+        "🙂 Content": "You're doing fine. Maintain this space with something you enjoy.",
+        "😊 Calm": "Notice what brought this calm. Keep a gratitude note.",
+        "😄 Happy": "Celebrate the little joys! What made you smile today?",
+        "🤩 Excited": "Your energy is contagious! Harness it into something creative.",
+        "🥳 Joyful": "Spread the joy! Write about what made you feel this way!"
+    }
+    return tips.get(emotion, "Be kind to yourself. Your feelings are valid.")
